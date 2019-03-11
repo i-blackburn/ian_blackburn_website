@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="../dist/img/favicon.png" />
     <title>Contact Me</title>
   </head>
   <body>
@@ -52,11 +53,13 @@
         This is how you can reach me...
       </h2>
       <div class="boxes">
-        <div><span class="text-secondary">Email: </span>johndoe@test.com</div>
-        <div><span class="text-secondary">Phone: </span>(555) 555-5555</div>
-        <div>
-          <span class="text-secondary">Address: </span>50 Main St, Boston MA
-          02101
+        <div onclick="clickEmail()">
+          <i class="far fa-envelope text-secondary"></i>
+          ianblackburndeveloper@gmail.com
+        </div>
+        <div onclick="clickLinkedIn()">
+          <i class="fab fa-linkedin text-secondary"></i>
+          Visit me on LinkedIn
         </div>
       </div>
     </main>

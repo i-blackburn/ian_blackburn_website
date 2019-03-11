@@ -31,3 +31,11 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+function clickEmail() {
+  window.location.href = "mailto:ianblackburndeveloper@gmail.com";
+}
+
+function clickLinkedIn() {
+  window.open("https://linkedin.com/in/ian-blackburn-08157213a", "_blank");
+}
