@@ -145,11 +145,18 @@ main {
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
+    main .icons span {
+      padding: 0.4rem; }
+      main .icons span:hover {
+        color: #c43333;
+        transition: all 0.5s ease-out;
+        cursor: pointer; }
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
         color: #c43333;
-        transition: all 0.5s ease-out; }
+        transition: all 0.5s ease-out;
+        cursor: pointer; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -193,27 +200,8 @@ main {
       border-color: #c43333;
       transition: all 0.5s ease-out; }
 
-.boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 1rem; }
-  .boxes div {
-    font-size: 2rem;
-    border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
-    margin-bottom: 3rem;
-    transition: all 0.5s ease-out; }
-    .boxes div:hover {
-      padding: 0.5rem 1.5rem;
-      background: #c43333;
-      color: #fff;
-      cursor: pointer; }
-      .boxes div:hover span {
-        color: #fff; }
-      .boxes div:hover i {
-        color: #fff; }
+.contact {
+  text-align: center; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -284,4 +272,6 @@ main {
     margin-top: 10vh;
     font-size: 350%; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .contact {
+    font-size: 0.75rem; } }

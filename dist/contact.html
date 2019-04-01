@@ -12,9 +12,9 @@
     />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="icon" href="../dist/img/favicon.png" />
-    <title>Contact Me</title>
+    <title>Welcome To My Portfolio</title>
   </head>
-  <body>
+  <body id="bg-img">
     <div class="overlay"></div>
     <header>
       <div class="menu-btn">
@@ -47,26 +47,26 @@
       </nav>
     </header>
 
-    <main id="about">
-      <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
+    <main id="home" class="contact" style="text-align: center">
+      <h1 class="lg-heading">
+        Contact <span class="text-secondary">Me</span>
+      </h1>
       <h2 class="sm-heading">
-        This is how you can reach me...
+        You can reach me on LinkedIn or via my email at ianblackburndeveloper@gmail.com
+        <div class="icons">
+          <a
+            href="https://linkedin.com/in/ian-blackburn-08157213a"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <span>
+            <i class="fas fa-envelope fa-2x email" onclick="clickEmail()"></i>
+          </span>
+          
+        </div>
       </h2>
-      <div class="boxes">
-        <div onclick="clickEmail()">
-          <i class="far fa-envelope text-secondary"></i>
-          ianblackburndeveloper@gmail.com
-        </div>
-        <div onclick="clickLinkedIn()">
-          <i class="fab fa-linkedin text-secondary"></i>
-          Visit me on LinkedIn
-        </div>
-      </div>
     </main>
-
-    <footer id="main-footer">
-      Copyright &copy 2019
-    </footer>
 
     <script src="js/main.js"></script>
   </body>
